@@ -1,4 +1,4 @@
 # progs
 
-- divers programs
+- several programs
 
