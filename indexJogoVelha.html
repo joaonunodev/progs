@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="styleJogoVelha.css">
+</head>
+
+<body>
+    <h1>Jogo da Velha</h1>
+
+    <div class="janela">
+        <div class="jogo">
+            <div>
+                <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+                <div id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+                <div id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            </div>
+
+            <div>
+                <div id="4" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+                <div id="5" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+                <div id="6" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            </div>
+
+            <div>
+                <div id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+                <div id="8" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+                <div id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            </div>
+
+            <div class="jogador">
+                <label>
+                    Jogador:
+                </label>
+                <label id="jogador-selecionado">
+
+                </label>
+
+            </div>
+
+            <div class="vencedor">
+                <label>
+                    Vencedor:
+                </label>
+                <label id="vencedor-selecionado">
+
+                </label>
+            </div>
+
+            <div>
+                <button onclick="reiniciar()">Reiniciar</button>
+            </div>
+        </div>
+
+        <div class="resultado">
+            <h2>Resultados:</h2>
+
+            <div class="tabela">
+                <div>Jogador</div>
+                <div>Vitórias</div>
+                <div>Derrotas</div>
+                <div>Empates</div>
+            </div>
+
+            <div class="tabela">
+                <div>X</div>
+                <div id="jogadorX-vitorias">-</div>
+                <div id="jogadorX-derrotas">-</div>
+                <div id="jogadorX-empates">-</div>
+            </div>
+
+            <div class="tabela">
+                <div>O</div>
+                <div id="jogadorO-vitorias">-</div>
+                <div id="jogadorO-derrotas">-</div>
+                <div id="jogadorO-empates">-</div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="scriptJogoVelha.js"></script>
+
+</html>
