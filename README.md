@@ -6,7 +6,7 @@
 
 2. JavaScript: Jogo Genius
 
-<a href="https://joaonunodev.github.io/progs/JogoGenius/jogoGenius.html"> Clique aqui</a> para experimentar o programa Jogo da Velha.
+<a href="https://joaonunodev.github.io/progs/JogoGenius/jogoGenius.html"> Clique aqui</a> para experimentar o programa Jogo Genius.
 
 2. JavaScript: Jogo da Velha
 
